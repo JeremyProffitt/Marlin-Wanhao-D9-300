@@ -8,15 +8,15 @@
   #endif
 #endif
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
-  #define THERMAL_PROTECTION_PERIOD 40        
+  #define THERMAL_PROTECTION_PERIOD 120        
   #define THERMAL_PROTECTION_HYSTERESIS 4     
-  #define WATCH_TEMP_PERIOD 20                
+  #define WATCH_TEMP_PERIOD 120                
   #define WATCH_TEMP_INCREASE 2               
 #endif
 #if ENABLED(THERMAL_PROTECTION_BED)
-  #define THERMAL_PROTECTION_BED_PERIOD 20    
+  #define THERMAL_PROTECTION_BED_PERIOD 120    
   #define THERMAL_PROTECTION_BED_HYSTERESIS 2 
-  #define WATCH_BED_TEMP_PERIOD 60                
+  #define WATCH_BED_TEMP_PERIOD 100                
   #define WATCH_BED_TEMP_INCREASE 2               
 #endif
 #if ENABLED(PIDTEMP)
